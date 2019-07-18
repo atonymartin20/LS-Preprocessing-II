@@ -1,1 +1,14 @@
 // Mixins in here
+// * [ ] Buttons: Create a parametric mixin that can create the missing buttons in the design file. Use the `mixins.less` file to create your mixin.
+
+.button-layout(@width, @justify:center, @align:center){
+    font-size: 1.8rem;
+    background-color: #008080;
+    color: white;
+    border-radius: 15px;
+    padding: 13px 15px;
+    width: @width;
+	display: flex;
+	justify-content: @justify;
+	align-items: @align;
+}
