@@ -244,8 +244,38 @@ nav a {
 }
 .contact .content-header form {
   font-size: 1.8rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
 }
 .contact .content-header form input {
   font-size: 1.6rem;
   padding: 10px;
+  margin: 15px 3% 15px 0px;
+  width: 27%;
+}
+.contact .content-header form label {
+  width: 20%;
+}
+.contact .content-header form textarea {
+  width: 70%;
+}
+.contact .content-header form p {
+  width: 100%;
+}
+.contact .content-header form p input {
+  width: 5%;
+  margin: 15px 0%;
+}
+.contact .content-header form button {
+  width: 25%;
+  background-color: lightgrey;
+  color: firebrick;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.8rem;
 }
